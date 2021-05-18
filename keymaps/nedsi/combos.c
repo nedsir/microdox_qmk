@@ -23,13 +23,13 @@ const uint16_t PROGMEM COMMA_DOT_COMBO[] = {KC_COMMA, KC_DOT, COMBO_END};
 const uint16_t PROGMEM F_D_COMBO[] = {HOME_F, HOME_D, COMBO_END};
 const uint16_t PROGMEM C_V_COMBO[] = {KC_C, KC_V, COMBO_END};
 
-combo_t key_combos[COMBO_COUNT] = {
+combo_t key_combos[] = {
     [JK] = COMBO_ACTION(J_K_COMBO),
     [JL] = COMBO_ACTION(J_L_COMBO),
     [MCOMMA] = COMBO_ACTION(M_COMMA_COMBO),
     [COMMADOT] = COMBO_ACTION(COMMA_DOT_COMBO),
     [FD] = COMBO_ACTION(F_D_COMBO),
-    [CV] = COMBO_ACTION(C_V_COMBO)
+    [CV] = COMBO_ACTION(C_V_COMBO),
 };
 
 
