@@ -82,5 +82,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /*
  *  * Rotary Encoder Support
 */
-#define ENCODERS_PAD_A { B7 }
-#define ENCODERS_PAD_B { D5 }
+#define ENCODERS_PAD_A { D5 }
+#define ENCODERS_PAD_B { B7 }
